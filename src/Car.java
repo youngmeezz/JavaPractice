@@ -17,26 +17,11 @@ public class Car {
     int number;
     //Car라는 클래스에 이름과 번호를 필드로 선언한 것
 
-    static int width =100;
-    static int height =250;
+    static int width = 100;
+    static int height = 250;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void run(){
+        System.out.println("달리다.");
+    }
 }
+
